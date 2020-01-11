@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlashkaLisr", "FlashkaLisr\FlashkaLisr.csproj", "{1B5152F7-4D68-4DF1-A181-34731C8A1747}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B5152F7-4D68-4DF1-A181-34731C8A1747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5152F7-4D68-4DF1-A181-34731C8A1747}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5152F7-4D68-4DF1-A181-34731C8A1747}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5152F7-4D68-4DF1-A181-34731C8A1747}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9284AB2-C633-403E-AFA0-56F0FB811B1A}
+	EndGlobalSection
+EndGlobal

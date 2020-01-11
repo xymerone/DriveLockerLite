@@ -1,0 +1,6 @@
+C:\Users\XymerOne\source\repos\FlashkaLisr\FlashkaLisr\obj\Debug\FlashkaLisr.csprojAssemblyReference.cache
+C:\Users\XymerOne\source\repos\FlashkaLisr\FlashkaLisr\bin\Debug\DriveLocker.exe.config
+C:\Users\XymerOne\source\repos\FlashkaLisr\FlashkaLisr\bin\Debug\DriveLocker.exe
+C:\Users\XymerOne\source\repos\FlashkaLisr\FlashkaLisr\bin\Debug\DriveLocker.pdb
+C:\Users\XymerOne\source\repos\FlashkaLisr\FlashkaLisr\obj\Debug\DriveLocker.exe
+C:\Users\XymerOne\source\repos\FlashkaLisr\FlashkaLisr\obj\Debug\DriveLocker.pdb
