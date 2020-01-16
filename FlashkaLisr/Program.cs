@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading;
@@ -10,7 +10,7 @@ namespace FlashkaLisr
     {
         static void Main(string[] args)
         {
-            string NameAutoRun = "VideoDriverAcseleration";
+            string NameAutoRun = "DriveLocker";
             bool AutoRunExists = false;
             string root = System.Diagnostics.Process.GetCurrentProcess().MainModule.FileName;
             string fileName = Path.GetFileName(root);
@@ -38,6 +38,7 @@ namespace FlashkaLisr
             }
             Thread loc = new Thread(new ThreadStart(Locker));
             loc.Start();
+            Console.WriteLine("Start locker");
         }
         public static List<string> GetFlashka()
         {
@@ -56,9 +57,15 @@ namespace FlashkaLisr
         static void Locker()
         {
             string FileName = "Mark7546.usb";
-            List<string> drives = GetFlashka();
             while (true)
             {
+                List<string> drives = GetFlashka();
+                if (drives.Count == 0)
+                {
+                    System.Diagnostics.Process.Start(@"C:\WINDOWS\system32\rundll32.exe", "user32.dll,LockWorkStation");
+                    Thread.Sleep(7000);
+                    continue;
+                }
                 foreach (string s in drives)
                 {
                     string fi = s + FileName;
@@ -72,7 +79,7 @@ namespace FlashkaLisr
                         continue;
                     }
                 }
-                Thread.Sleep(2000);
+                Thread.Sleep(3000);
             }
             
         }
