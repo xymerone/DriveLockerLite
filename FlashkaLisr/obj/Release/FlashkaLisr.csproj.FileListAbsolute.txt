@@ -3,3 +3,4 @@ C:\Users\XymerOne\source\repos\FlashkaLisr\FlashkaLisr\bin\Release\DriveLocker.e
 C:\Users\XymerOne\source\repos\FlashkaLisr\FlashkaLisr\bin\Release\DriveLocker.pdb
 C:\Users\XymerOne\source\repos\FlashkaLisr\FlashkaLisr\obj\Release\DriveLocker.exe
 C:\Users\XymerOne\source\repos\FlashkaLisr\FlashkaLisr\obj\Release\DriveLocker.pdb
+C:\Users\XymerOne\source\repos\FlashkaLisr\FlashkaLisr\obj\Release\FlashkaLisr.csprojAssemblyReference.cache
